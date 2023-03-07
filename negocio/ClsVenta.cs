@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Parcial1.entidades;
 
-namespace Parcial.negocio
+namespace Parcial1.negocio
 {
 
-    public class ClsVentas
+    public class clsVentas
     {
         public String Cobro(Venta ven)
         {

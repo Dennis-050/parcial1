@@ -9,7 +9,7 @@ using System;
 usuario usuario = new usuario();
 Clsusuario clsUsuario = new Clsusuario();
 Venta venta = new Venta();
-clsVentas clsVentas = new ClsVentas();
+clsVentas clsVentas = new clsVentas();
 
 Console.WriteLine("Ingrese su usuario");
 usuario.usuarioE = Console.ReadLine();
@@ -21,7 +21,7 @@ if (Resultado == true)
 {
     Console.WriteLine("===========================================");
     Console.WriteLine("Bienvenido ala tienda parcia1");
-    Console.WriteLine("don de encuentras lo que buscabas");
+    Console.WriteLine("donde encuentras lo que buscabas");
     Console.WriteLine("==========================================");
     Console.Write("\nIngrese el identificador del producto: ");
     venta.IdProducto = Convert.ToInt32(Console.ReadLine());
